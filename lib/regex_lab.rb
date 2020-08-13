@@ -20,4 +20,5 @@ if phone.match?(/[0-9]|^[a-z]/)
 else
   return false 
 end
+end 
 #( * match some phone numbers * } | { *match some more * } | *{ match some more *}
