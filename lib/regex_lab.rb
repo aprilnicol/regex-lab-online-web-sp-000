@@ -15,14 +15,6 @@ text.match?(/^[A-Z].*\W$/)
 end
 
 def valid_phone_number?(phone)
-def nums
-  nums = phone
-  phone = "2438894546", "(718)891-1313", "234 435 9978", "(800)4261134"
-if phone.match?(/[0-9]|^[a-z]/)
-  return true
-else
-  return false
-end
-end
+phone.scan(/\[0-9]/).count == 10
 end 
 #( * match some phone numbers * } | { *match some more * } | *{ match some more *}
