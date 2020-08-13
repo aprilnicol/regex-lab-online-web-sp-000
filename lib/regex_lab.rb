@@ -15,10 +15,6 @@ text.match?(/^[A-Z].*\W$/)
 end
 
 def valid_phone_number?(phone)
-if phone.match?(/([0-9]*?){10}|(\([0-9]{3}\)(([0-9]{3}-[0-9]{4})|[0-9]{7})\b)/)
-return true
-else
-  return false
-end
+phone.match?(?:\+?|\b)[0-9]/)
 end 
 #( * match some phone numbers * } | { *match some more * } | *{ match some more *}
