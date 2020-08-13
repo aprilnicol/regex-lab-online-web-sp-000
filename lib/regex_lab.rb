@@ -18,7 +18,7 @@ def valid_phone_number?(phone)
 if phone.match?(/[0-9]|^[a-z]/)
   return true
 else
-  return false 
+  return false
 end
 end 
 #( * match some phone numbers * } | { *match some more * } | *{ match some more *}
