@@ -16,5 +16,5 @@ end
 
 def valid_phone_number?(phone)
 phone.match?(?:\+?|\b)[0-9]/)
-end 
+end
 #( * match some phone numbers * } | { *match some more * } | *{ match some more *}
