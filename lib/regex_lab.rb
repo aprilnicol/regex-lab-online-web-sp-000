@@ -16,5 +16,5 @@ end
 
 def valid_phone_number?(phone)
 phone.scan(/\[0-9]/).count == 10
-end 
+end
 #( * match some phone numbers * } | { *match some more * } | *{ match some more *}
